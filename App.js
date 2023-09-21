@@ -3,8 +3,8 @@ import { TouchableOpacity, ScrollView, StyleSheet,View ,TextInput} from 'react-n
 import Icon from 'react-native-vector-icons/Feather'
 import Task from './components/Task'
 const App = () => {
-  const [input,setInput] = useState('')
-  const [tasks,setTasks] = useState([])
+  const [input,setInput] = useState('');
+  const [tasks,setTasks] = useState([]);
   
   const handleAdd = () => {
     if(input.length > 0){
